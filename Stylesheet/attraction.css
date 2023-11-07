@@ -1,0 +1,103 @@
+body
+{
+    background: rgba(161, 161, 161, 1);
+}
+
+div[class*="ridesrow"], div[class*="foodandshoprow"]
+{
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+}
+
+summary
+{
+    width: 200px;
+    background: rgba(161, 161, 161, 1);
+    font-family: Arvo;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+}
+
+.ridesandgames p
+{
+    background: rgba(161, 161, 161, 1);
+    width: 300px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/*Attractions and Amenities CSS*/
+.segmentTitle {
+    font-family:creepster;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+.ridesandgames 
+{
+    padding:20px;
+    background:rgba(161, 161, 161, 1);
+    border:2px solid rgba(161, 161, 161, 1);
+    margin:2px;
+
+}
+
+.ridesrow1{
+    display: flex;
+    justify-content: center;
+    }
+
+.ridesrow2 {
+    display: flex;
+    justify-content: center;
+    }
+
+.ridesrow2 .pumpkinimage{
+    position: relative;
+    right: 350px
+}
+
+.ridesrow3{
+    display: flex;
+    justify-content: center;
+    }
+
+.foodandshoprow1{
+    display: flex;
+    justify-content: center;
+}
+
+.foodandshoprow2{
+    display: flex;
+    justify-content: center;
+}
+
+.miscimages{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.foodandshoprow1 img
+{
+    padding: 10px;
+}
+
+.ridesrow2
+{
+    position: relative;
+    right: 70px;
+}
+
+.ridesrow1
+{
+    position: relative;
+    left: 50px;
+}

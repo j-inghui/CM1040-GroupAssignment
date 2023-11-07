@@ -1,0 +1,499 @@
+
+body {
+    background: #A2A2A2;
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.nav-logo {
+filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+margin-bottom: 10px;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-logo img{
+    width: 200px;
+}
+
+.nav-buttons div {
+    width:150px;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #000000;
+    border-radius: 6px;
+    vertical-align: middle;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+    font-family: Arvo;
+}
+
+.nav-buttons a{
+    text-decoration: none;
+    font-size: 17px;
+    color:#FFFF00;
+}
+
+
+.nav-button-space{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nav-buttons{
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    margin-right: 10%;
+}
+
+
+.nav-buttons div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px
+}
+
+.dropdown-btn{
+    display: none;
+}
+.promo-banner {
+    background-color: black;
+    color: #FFFF00;
+    height:30px;
+    display: flex;
+    align-items: center;
+}
+
+marquee {
+    background-color: black;
+    color: #FFFF00;
+    font-family: Arvo;
+    font-family: 'Source Sans Pro';
+    font-weight: bolder
+}
+
+h1 {
+    text-align: center;
+    font-family: Creepster;
+    font-size: xxx-large;
+    margin:0;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom-style: solid;
+    margin-bottom: 30px;
+}
+
+
+#outer-calendar{
+    width:50%;
+    float:left;
+}
+
+#outer-calendar h2{
+    text-align: center;
+    width:fit-content;
+    margin:auto;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+.calendar-legend {
+    overflow: auto;
+    margin-bottom: 5%;
+
+}
+
+.calendar-legend h2 {
+    font-family: Creepster;
+    font-size: xx-large;
+}
+
+
+#month-name{
+    margin: 0 auto;
+    margin-bottom: 3%;
+    text-align: center;
+    width: 420px;
+    margin: auto;
+    padding-bottom: 3%;
+    padding-top:3%;
+    background: #c0c0c0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+
+#days {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    color: #A34869;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 10px;
+    background: #c9c9c9;
+    margin-bottom: 18px;
+}
+
+#day{
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: thin;
+    
+}
+#day p{
+    border-width: thin;
+    margin-bottom: 6px;
+    
+}
+
+.day-info{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 7px;
+    background: green;
+}
+
+
+
+#day:hover{
+    background-color: #A34869;;
+    color: #FFFF00;
+    border-radius: 10%;
+}
+
+.weekday{
+    height:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    margin-bottom: 10px;
+
+}
+.weekday p {
+    margin:0;
+}
+
+.legend{
+    width:50%;
+    float:right;
+}
+
+.legend-icon-text
+{
+    display: flex;
+    width: fit-content;
+}
+
+.legend-icon-text p
+{
+    display: flex;
+    width: fit-content;
+}
+
+
+.legend-icon{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: auto;
+    margin-right: 10px;
+    
+}
+#available{
+    background: green;
+}
+
+#fillingfast{
+    background: orange;
+}
+#soldout{
+    background: red;
+}
+#promo{
+    background:pink
+}
+
+
+
+.adultprice{
+    display: flex;
+    text-align: center;
+    margin:auto;
+    justify-content: space-around;
+    width: 100px;
+}
+
+
+.childprice{
+    display: flex;
+    text-align: center;
+    margin:auto;
+    justify-content: space-around;
+    width: 100px;
+}
+.tickets-selection{
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.tickets-selection h2{
+    font-family: Creepster;
+    font-size: xx-large;
+    width: fit-content;
+    margin: auto;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+
+
+#input-form {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.inputs {
+    width: fit-content;
+    margin-right: 47%;
+}
+
+.inputs label{
+    margin-right:10px;
+}
+
+#adult-input{
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 30px;
+    background: #a2a2a2;
+}
+
+#child-input{
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 30px;
+    background: #a2a2a2;
+}
+
+.tickets-selection img{
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    width: 700px;
+    object-fit: cover;
+    z-index: -5;
+
+}
+
+.summary-section {
+    border-top-style: solid;
+    background-size: cover;
+    background-position: 0px -300px;
+}
+
+.summary{
+    padding-top: 113px;
+    padding-bottom: 50px;
+    font-family: 'Arvo';
+    
+}
+
+.adult-summary p{
+    width:fit-content;
+    margin: 0;
+}
+
+.adult-summary {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+
+}
+
+.child-summary p{
+    width:fit-content;
+    margin: 0;
+    
+}
+
+.child-summary {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.total-summary p{
+    width:fit-content;
+    margin: 0;
+}
+
+.total-summary {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.payment {
+    display: flex;
+    justify-content:center;
+    padding-bottom:30px;
+}
+
+.payment-buttons{
+    width:500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+
+}
+
+
+.payment-buttons button {
+    width:150px;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #000000;
+    border-radius: 6px;
+    vertical-align: middle;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+    font-family: Arvo;
+    color:#FFFF00;
+    font-size: 17px;
+
+}
+
+@media screen and (max-width: 600px){
+    .nav-items {
+        display: flex;
+    }
+
+    .nav-logo img {
+        width:100px;
+    } 
+    .nav-buttons {
+        display: none;
+    }
+
+    .dropdown-btn{
+        display: block;
+        margin-left: 80%;
+        font-size: 40px;
+        filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .dropdown-content {
+        display: none;
+        font-family: Arvo;
+        position: absolute;
+        background-color: #000000;
+        
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        left: -125px;
+        border-radius: 5px;
+
+      }
+      .dropdown-content div{
+        display: flex;
+        align-items: center;
+        height: 50px;
+
+      }
+      .dropdown-content a{
+        font-size: small;
+        color:#FFFF00;
+        margin-left: 20px;
+        text-decoration: none;
+      }
+
+      .promo-banner{
+        z-index: -5;
+        position: relative;
+      }
+
+      #outer-calendar{
+          float: none;
+          width: auto;
+      }
+
+      #month-name {
+          width: auto;
+      }
+
+      #days {
+          width: auto;
+          margin-bottom: 23px;
+      }
+      
+      .prices {
+          float: left;
+      }
+
+      .legend{
+          float: right;
+          margin-right: -35px;
+      }
+
+      .legend h2{
+        margin:auto;
+    }
+
+    .tickets-selection img {
+        width: 268px;
+        
+    }
+
+    .tickets-selection h2 {
+        margin-left: 5%;
+    }
+
+
+    .summary-section {
+        background-position: -64px -292px;
+    }
+    .summary {
+        padding-top: 99px;
+        padding-bottom: 28px;
+        margin-left: 6%;
+    }
+
+    .payment-buttons {
+        padding-top: 29px;
+    }
+
+    .inputs {
+        margin-right: 30%;
+    }
+}

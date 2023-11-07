@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<!--Tab Title-->
+
+<head>
+    <!-- <link rel="stylesheet" href="booking.css"> -->
+    <title> Kingdoom Tickets Booking </title>
+    <script src="https://kit.fontawesome.com/e57efbdb11.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Stylesheet/booking.css">
+</head>
+
+
+<body>
+    <script src="booking.js"></script>
+
+
+    <nav>
+
+        <div class="nav-items">
+            <div class="nav-logo">
+
+                <a href="index.html">
+
+                    <img src="Image/Kingdoom Logo.png">
+
+                </a>
+            </div>
+            <div class="nav-button-space">
+                <div class="nav-buttons">
+                    <a href="Attractions_Amenities.html" id="attr-button">
+                        <div id="attrbtn">Attraction</div>
+                    </a>
+                    <a href="FAQ.html" id="FAQ-button">
+                        <div id="faqbtn">FAQ</div>
+                    </a>
+                    <a href="booking.html" id="booking-button">
+                        <div id="bookingbtn">Tickets Booking</div>
+                    </a>
+                </div>
+                <div class='fas fa-chevron-circle-down dropdown-btn' onclick='dropdown()'>
+                    <div class="dropdown-content">
+                        <div>
+                            <a href="Attractions&Amenities.html">Attraction</a>
+                        </div>
+                        <div>
+                            <a href="FAQ.html">FAQ</a>
+                        </div>
+                        <div>
+                            <a href="booking.html">Tickets Booking</a>
+                        </div>
+                    </div>
+                </div>
+
+    </nav>
+
+    <div class="promo-banner">
+        <marquee width="100%" direction="left">
+
+            <font size="3">Halloween Dress Up promotion - 40% off if you come in a costume!</font>
+
+        </marquee>
+
+    </div>
+
+
+    <h1>Tickets Booking</h1>
+
+    <div class="calendar-legend">
+        <div id='outer-calendar'>
+            <h2>Calendar</h2>
+            <div id="calendar">
+                <p id="month-name"><b>October</b></p>
+                <div id="days" style="display: grid;grid-template-columns: repeat(7, 1fr);">
+                    <div class="weekday" id="Mon">
+                        <p>Mon</p>
+                    </div>
+                    <div class="weekday" id="Tue">
+                        <p>Tue</p>
+                    </div>
+                    <div class="weekday" id="Wed">
+                        <p>Wed</p>
+                    </div>
+                    <div class="weekday" id="Thu">
+                        <p>Thur</p>
+                    </div>
+                    <div class="weekday" id="Fri">
+                        <p>Fri</p>
+                    </div>
+                    <div class="weekday" id="Sat">
+                        <p>Sat</p>
+                    </div>
+                    <div class="weekday" id="Sun">
+                        <p>Sun</p>
+                    </div>
+                    <div id="day">
+                        
+                    </div>
+                    <div id="day">
+                        
+                    </div>
+                    <div id="day">
+                        
+                    </div>
+                    <div id="day">
+                        <p>1</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>2</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>3</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>4</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>5</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>6</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>7</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>8</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>9</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>10</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>11</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>12</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>13</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>14</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>15</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>16</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>17</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>18</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>19</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>20</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>21</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>22</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>23</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>24</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>25</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>26</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>27</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>28</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>29</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>30</p>
+                        <div class="day-info"></div>
+                    </div>
+                    <div id="day">
+                        <p>31</p>
+                        <div class="day-info"></div>
+                    </div>
+                </div>
+                <div class="prices">
+                    <div class="prices-title">
+                        <h2>Prices</h2>
+                    </div>
+                    <div class="adultprice">
+                        <p>Adult</p>
+                        <p>$25</p>
+                    </div>
+                    <div class="childprice">
+                        <p>Child</p>
+                        <p>$10</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="legend">
+            <div class="legend-title">
+
+                <h2>Legend</h2>
+            </div>
+            <div class="legend-icon-text">
+                <div class="legend-icon" id="available"></div>
+                <p>Available</p>
+            </div>
+            <div class="legend-icon-text">
+                <div class="legend-icon" id="fillingfast"></div>
+                <p>Filling up Fast</p>
+            </div>
+            <div class="legend-icon-text">
+                <div class="legend-icon" id="soldout"></div>
+                <p>Sold out</p>
+            </div>
+            <div class="legend-icon-text">
+                <div class="legend-icon" id="promo"></div>
+                <p>Promotional Price</p>
+            </div>
+        </div>
+    </div>
+    <div class="tickets-selection">
+        <img src="Image/Cat And pumpkin.png" ; alt="">
+        <h2>Quantity:</h2>
+        <form id="input-form" action="/action_page.php">
+            <div class="inputs">
+                <label for="number">Adult</label>
+                <input onkeyup="calculate()" type="number" id="adult-input">
+                <br><br>
+                <label for="number">Child</label>
+                <input onkeyup="calculate()" type="number" id="child-input">
+            </div>
+        </form>
+
+    </div>
+    <div class="summary-section" style="background-image: url('Image/Bat\ with\ moon.png')">
+        <div class="summary">
+
+            <div class="adult-summary">
+                <p>Adult</p>
+                <p id="adult_num"></p>
+                <p id="adult_total"></p>
+            </div>
+            <div class="child-summary">
+                <p>Child</p>
+                <p id="child_num"></p>
+                <p id="child_total"></p>
+            </div>
+            <div class="total-summary">
+                <p>Total</p>
+                <p id="final_total"></p>
+            </div>
+        </div>
+        <div class="payment" ;>
+            <div class="payment-buttons">
+                <button>Cancel</button>
+                <button>Pay</button>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+body{
+    background-color: darkgrey;
+    padding: 0px;
+}
+
+section{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-color: black;
+    border-width: 50px;
+}
+
+h1{
+    font-family: 'Creepster', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+
+h2{
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+
+.column {
+        float: left;
+        width: 50%;
+        padding: 0px;
+        height: auto;
+}
+
+.column img {
+    margin-top: 60px;
+}
+
+.row:after {
+            content: "";
+            display: table;
+            clear: both;
+            height: auto;
+}
+
+.box {
+    height: auto;
+}
+                
+
+summary{
+    font-family: 'Arvo';
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    padding-bottom: 0px;
+}
+

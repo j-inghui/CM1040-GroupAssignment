@@ -1,0 +1,313 @@
+.Homepage 
+{   
+    background-color : rgb(161,161,161);
+    background-size : 100%;
+    
+}
+
+
+
+.Banner #BannerImage 
+{
+    
+    width:100%;
+   
+
+} 
+
+.BannerText
+{
+    position : relative ;
+    top : -400px ;
+    font-family : "Creepster",cursive;
+    font-size : 71px;
+    color : yellow;
+    width: fit-content;
+    justify-content: center;
+    margin: auto;
+}
+
+.BannerText p
+{
+    margin:0;
+}
+
+.BannerText2 
+{
+    position : relative ;
+    top: -483px;
+    font-family : "Creepster",cursive;
+    font-size : 70.5px;
+    width: fit-content;
+    justify-content: center;
+    margin: auto;
+}
+.BannerText2 p
+{
+    margin:0;
+}
+
+
+.rowOne
+{
+    display : flex;
+    justify-content: center;
+    text-align: center; 
+    margin-top : -250px ;
+    padding: 50px;
+    font-family : 'Arvo',serif;
+  
+}
+
+
+
+.rowOne a{
+    text-decoration: none;
+    color: black;
+}
+
+.rowOne #Spiderweb 
+{  position : relative;
+   height:300px;
+   width : 70px;
+   right: 285px;
+   top: -45px;
+}
+
+
+
+.EpicAdventureGroup
+{
+    position : relative;
+    left: -186px;
+    
+}
+
+.TwoForTwoGroup
+{
+    position : relative ;
+    right: -111px;
+}
+
+/*Purely Image editing*/
+
+.rowOne #EpicAdventure 
+{
+    
+    width :  550px;
+    height : 300px;
+    border-radius : 25px;
+    border : 5px solid #CfC709;
+    
+   
+    
+}
+
+.rowOne #TwoforTwo
+{   
+    
+    width  : 550px;
+    height : 300px;
+    border-radius : 25px;
+    border : 5px solid #A34869;
+}
+    
+    
+.rowTwo 
+{
+    display : flex;
+    justify-content : center;
+    text-align : center; 
+    margin : 20px;
+    font-family : 'Arvo',serif;
+
+    
+
+}
+
+.rowTwo a{
+    text-decoration: none;
+    color: black;
+}
+
+.FoodiesGroup
+{
+    position : relative;
+    left : -20px;
+    
+
+
+}
+
+.LuckyDrawGroup
+{
+    position : relative;
+    right : 10px;
+   
+
+}
+
+
+/*Purely images*/
+.rowTwo #Foodies
+{
+    width :  550px;
+    height : 300px;
+    border-radius : 25px;
+    border : 5px solid #363840;
+}
+
+.rowTwo #LuckyDraw
+{
+    width : 550px; 
+    height: 300px;
+    border-radius : 25px;
+    border : 5px solid #A15D18;
+}
+
+
+.footer #BatKingdom
+{   display : flex;
+    justify-content: center;
+    height : 900px;
+    width: 100%;
+
+    
+    
+}
+
+.contact-sponsor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Contact
+{   
+    justify-content : center;
+    text-align : center;
+    position : relative;
+    /* left: 15%; */
+    /* top: -790px; */
+    font-size : 20px;
+    width: fit-content;
+    margin: 0;
+   
+}
+
+.ContactInfo 
+{   
+     font-family : 'Source Sans Pro', sans-serif;
+  
+}
+
+.Contact #ContactText 
+{
+    font-family : 'Arvo',serif;
+}
+
+.Sponsors
+{   
+    justify-content : center;
+    text-align : center;
+    position : relative; 
+    /* right: -66%; */
+    /* top: -951px; */
+    font-size : 20px;
+    width: fit-content;
+    margin: 0;
+
+    
+}
+
+.Sponsors #SponsorText
+{
+    font-family : 'Arvo',serif;
+}
+
+.Sponsors #PlanetHub 
+{
+    margin-right  : 60px;
+    font-family : "Source Sans Pro",sans-serif;
+}
+
+.Sponsors #IceOrigin 
+{
+     font-family : "Source Sans Pro",sans-serif;
+     
+}
+.SocialMedia
+{
+    position : relative;
+    text-align : center;
+    font-size : 20px;
+    margin-top: 100px;
+    
+}
+
+.social-media-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SocialMedia #SocialMediaText
+{
+    margin: auto;
+    margin-bottom: 47px;
+    font-family : 'Arvo',serif;
+}
+
+.instagram{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.instagram b{
+    margin-left: 5px;
+}
+
+.SocialMedia #Instagram 
+{
+   
+   font-family : 'Source Sans Pro Bold', sans-serif;
+   color : rgb(255,255,0)
+  
+}
+.SocialMedia #Facebook
+{
+
+    font-family : 'Source Sans Pro Bold', sans-serif;
+    color : rgb
+  
+}
+
+.facebook{
+
+    display: flex;
+    width: fit-content;
+    align-items: center;
+
+}
+
+
+.SocialMedia #Twitter
+{   
+    
+    font-family : 'Source Sans Pro Bold ', sans-serif;
+    color : rgb(255,255,0)
+  
+
+}
+
+.twitter{
+
+    display: flex;
+    width: fit-content;
+    align-items: center;
+
+}
+
+.footer-text {
+    margin-top: -687px;;
+}
+
