@@ -1,2 +1,2 @@
 # CM1040-GroupAssignment
-Group assignment
+Web Devlopment - Group assignment
